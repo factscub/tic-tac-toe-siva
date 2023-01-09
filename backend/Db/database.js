@@ -2,12 +2,13 @@ const mongoose = require('mongoose');
 const URL = 'mongodb+srv://siva7780:Siva1234@tictactoe.727wyfs.mongodb.net/tictactoe?retryWrites=true&w=majority'
 
 async function database() {
-
+mongoose.set('strictQuery', true)
     try {
          mongoose.connect(URL,{
             useUnifiedTopology: true,
             useNewUrlParser: true,
-            autoIndex: true, //make this also true
+            autoIndex: true, 
+            
         })
         console.log('Database connected successful. ');
 
