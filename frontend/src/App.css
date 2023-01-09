@@ -1,0 +1,26 @@
+
+html,body{
+    /* height: 100%; */
+}
+
+body{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+*,
+*::after,
+*::before {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+.App {
+    position: relative;
+    width: 360px;
+    height: 720px;
+    border: 2px solid gray;
+    text-align: center;
+}

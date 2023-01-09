@@ -1,0 +1,1 @@
+export const HomeButtonText = 'Start a new game'
