@@ -9,7 +9,7 @@ const getAllGames = (io, socket) => {
             callback('', games)
 
         } catch (error) {
-            // callback('something went wrong.')
+            callback('something went wrong.')
         }
 
     })

@@ -1,5 +1,5 @@
 const { createGame } = require("./createGame");
-const { getAllGames } = require("./GetAllGames");
+const { getAllGames } = require("./getAllGames");
 const { joinGame } = require("./joinGame");
 const { playTurn } = require("./playTurn");
 const { homePageRoom } = require("./homePageRoom");
