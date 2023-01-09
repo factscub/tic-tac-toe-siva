@@ -9,7 +9,7 @@ import { RegisterContext } from '../../Context/RegisterContext/RegisterContext'
 import { useContext, useState } from "react"
 import { CreateGameContext } from "../../Context/CreateGameContext/CreateGameContext"
 import { useNavigate } from "react-router-dom"
-import { createCombinedId } from "../../Helpers/createCombinedId"
+import { createCombinedId } from "../../Helpers/CreateCombinedId"
 import { SocketContext } from "../../Context/SocketContext/SocketContext"
 
 
