@@ -32,7 +32,7 @@ export const usePostData = () => {
             if (!!url) {
                 setData(prev => ({ ...prev, loading: true }))
 
-                const fetchedData = await axios.post(`http://localhost:3000/${url}`, state);
+                const fetchedData = await axios.post(`https://tic-tac-toe-backend-dxyn.onrender.com/${url}`, state);
                 // console.log(fetchedData)
 
                 dispatch({ type: 'EMPTY_STATE' })
