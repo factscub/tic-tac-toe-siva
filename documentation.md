@@ -22,7 +22,7 @@
 
 <br />
 
-1.This structure you in developing a component-based software architecture that simplifies maintenance and code reuse. 
+1.This structure assists in developing a component-based software architecture that simplifies maintenance and code reuse. 
 
 2.It enables you to maintain a global state variable by utilizing state management such as `usecontext hook`. 
 
