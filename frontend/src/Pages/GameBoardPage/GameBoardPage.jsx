@@ -173,7 +173,7 @@ export const GameBoardPage = ({ previousUrl }) => {
 
             // Bug: draw variables just returns true if all 
             // fields are filled 
-            const winner = getWinner({ game, usernames: [username, opponent] }) || draw
+            const winner = getWinner({ game, usernames: [username, opponent] }) || (draw ? 'DRAW' : '')
 
             function callback(err, data) { }
 
