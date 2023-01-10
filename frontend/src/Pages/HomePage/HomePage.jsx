@@ -62,7 +62,7 @@ export const HomePage = ({ btnText, url, HeadingText, gotoUrl }) => {
 
 
     return (
-        <div className='homePage' style={{background:'skyblue',  border:'2px solid black'}}>
+        <div className='homePage' >
 
             <PageHeaderText props={HeadingText} />
             {
