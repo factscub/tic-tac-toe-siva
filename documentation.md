@@ -9,6 +9,27 @@
 2.ReactJs\
 4.Socket.io
 
+
+## `React Architecture`
+
+<br />
+
+![Screenshot](REACT.png)
+
+<br />
+
+## `Advantages`
+
+<br />
+
+1.This structure you in developing a component-based software architecture that simplifies maintenance and code reuse. 
+
+2.It enables you to maintain a global state variable by utilizing state management such as `usecontext hook`. 
+
+3.Because this React architecture allows you to build out components, code expansion becomes much easier as your project grows. 
+
+4.Since it is component-based, the React architecture makes unit testing much easier. 
+
 ## `Frontend(React) directory Structure`
 ```bash
 ├── node_modules
@@ -65,6 +86,9 @@ In the middle, we have the controller layer, which has various rules and methods
 3.View layer\
 At the top is the view layer, which is often CSS, JavaScript, and HTML with dynamic embedded code. Here we are not going to use view layer in our project.Instead we send data to the frontend by means of REST API and SOCKET.IO. 
 
+
+## `Advantages `
+<br />
 The advantage of a layered architecture is the  `separation of concerns`, which means that each layer can focus solely on its role. This makes it:
 
 1.Maintainable\
