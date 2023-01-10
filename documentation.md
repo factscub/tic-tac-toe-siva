@@ -7,10 +7,32 @@
 
 1.Javascript\
 2.ReactJs\
-4.Socket.io\
+4.Socket.io
+
+## `Frontend(React) directory Structure`
+```bash
+├── node_modules
+├── public
+├── src
+|     ├── Api
+|     ├── Assets
+|     ├── Components
+|     ├── Constants
+|     ├── Context
+|     ├── Helpers
+|     ├── Pages
+|     ├── App.css
+|     ├── App.jsx
+|     ├── main.jsx
+|
+|     
+├── index.html
+├── package.json
+├── vite.config.js
 
 
 
+```
 
 
 
@@ -23,7 +45,7 @@
 2.Node.js\
 3.Express.js\
 4.MongoDB\
-5.Socket.io\
+5.Socket.io
 
 
 ### `Layered (n-tier) architecture `
@@ -43,12 +65,32 @@ In the middle, we have the controller layer, which has various rules and methods
 3.View layer\
 At the top is the view layer, which is often CSS, JavaScript, and HTML with dynamic embedded code. Here we are not going to use view layer in our project.Instead we send data to the frontend by means of REST API and SOCKET.IO. 
 
-The advantage of a layered architecture is the ### `separation of concerns`, which means that each layer can focus solely on its role. This makes it:
+The advantage of a layered architecture is the  `separation of concerns`, which means that each layer can focus solely on its role. This makes it:
 
 1.Maintainable\
 2.Testable\
 3.Easy to assign separate "roles"\
-4.Easy to update and enhance layers separately\
+4.Easy to update and enhance layers separately
+
+
+
+
+## `Backend directory Structure`
+
+
+```bash
+├── node_modules
+├── Controllers
+├── Db
+├── Models
+├── Routes
+├── Socket     
+├── index.js
+├── package.json
+
+
+```
+
 
 
 
