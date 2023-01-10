@@ -18,9 +18,6 @@ body {
 }
 
 .App {
-    position: relative;
-    overflow-x: hidden;
-    overflow-y: scroll;
     width: 360px;
     height: 720px;
     border: 2px solid gray;
