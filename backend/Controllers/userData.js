@@ -4,7 +4,7 @@ const bcrypt = require('bcrypt');
 
 // default route
 const homeRoute = async (req, res) => {
-    res.send('Hello from server!!');
+    res.send('Hello from server!!...');
 }
 
 // this method is called when we navigate to "/register" in browser
@@ -36,6 +36,7 @@ const registerRoute = async (req, res,next) => {
 
 // this method is called when we navigate to "/login" in browser
 const loginRoute = async (req, res,next) => {
+    
     try {
         const user = await User.findOne({ username: req.body.username });
         const match = await bcrypt.compare(req.body.password, user.password);
@@ -43,7 +44,11 @@ const loginRoute = async (req, res,next) => {
             res.json({ email: user.email, username: user.username });
             return;
         }
-    } catch (error) {
+        else{
+            throw new Error()
+
+        }
+    } catch (err) {
         res.status(404).send({ error: 'Enter correct details' });
 
     }
