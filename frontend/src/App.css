@@ -19,7 +19,8 @@ body {
 
 .App {
     width: 360px;
-    height: 720px;
+    min-height: 720px;
+    border-left:2px solid gray ;
     border: 2px solid gray;
     text-align: center;
 }
