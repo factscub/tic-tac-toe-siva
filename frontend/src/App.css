@@ -1,9 +1,9 @@
-
-html,body{
+html,
+body {
     /* height: 100%; */
 }
 
-body{
+body {
     display: flex;
     justify-content: center;
     align-items: center;
@@ -19,7 +19,8 @@ body{
 
 .App {
     position: relative;
-    overflow: hidden;
+    overflow-x: hidden;
+    overflow-y: scroll;
     width: 360px;
     height: 720px;
     border: 2px solid gray;
