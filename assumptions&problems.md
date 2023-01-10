@@ -11,10 +11,7 @@ Since socket.io is new for me, i had read the socket.io documentaion. I thought 
 1.To join a room. `socket.join()`\
 2.To leave a room . `socket.leave()`\
 3.To respond to an event . `socket.on()`\
-4.To all clients in room1 and/or room2 .\
-# `io.to("room1").to("room2").emit(/* ... */)`
-5.To individual socketid .\
-# `io.to(socketId).emit(/* ... */)`
-6.To all clients in the current namespace except the sender.
-# `socket.broadcast.emit(/* ... */)`
+4.To all clients in room1 and/or room2 . `io.to("room1").to("room2").emit(/* ... */)`\
+5.To individual socketid . `io.to(socketId).emit(/* ... */)` \
+6.To all clients in the current namespace except the sender. `socket.broadcast.emit(/* ... */)`
 
