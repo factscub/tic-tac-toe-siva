@@ -13,8 +13,7 @@
 </head>
 
 <body>
-  <div id="root"></div>
-  <script type="module" src="/src/main.jsx"></script>
+  <div id="root">
 <template id='layout_push_notification_area'>
 <style>#push_notification_area{position:fixed;top:0;right:0;height:100%;display:flex;flex-direction:column;width:100%;max-width:400px;user-select:none;pointer-events:none;z-index:99999}.area_top{justify-content:flex-start}.area_bottom{justify-content:flex-end}</style>
 <div id='push_notification_area'></div></template><template id='layout_push_inner_style'>
@@ -35,11 +34,13 @@
 	 i.inpagepush = i.inpagepush || function() {(i.inpagepush.q=(i.inpagepush.q||[])).push(arguments)};
 	 var s=(n.getElementsByTagName('head')||n.getElementsByTagName('body'))[0];var q=n.createElement('script');q.async=1;
 	 q.src='//static.adkernel.com/inpage/inpage.js';s.appendChild(q);
-	 i.inpagepush('init', {host: 'xml.ezmob.com', feed: 619364, auth: 'eCEgaT', subid: 'site1' , refresh: 90, slots: 2, layout: 'custom', position: 'top'});
+	 i.inpagepush('init', {host: 'xml.ezmob.com', feed: 619389, auth: 'RUCWfK', subid: 'site1' , refresh: 90, slots: 2, layout: 'custom', position: 'top'});
 	 i.inpagepush('show');	 })(window, document);
 	 </script>
                                 
-<script>
+  </div>
+  <script type="module" src="/src/main.jsx"></script>
+
 window.adk_pdisp = {
 	'h' : 'xml.ezmob.com', 
 	'f' : 619354,
