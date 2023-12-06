@@ -14,7 +14,31 @@
 
 <body>
   <div id="root">
-  <script type="module" src="/src/main.jsx"></script>                        
+  <script type="module" src="/src/main.jsx"></script>     
+    <script>
+(function(i,n,t,s,t,l){
+ i.intstl = i.intstl || function() {
+  (i.intstl.q=(i.intstl.q||[])).push(arguments)
+};
+var s=n.getElementsByTagName('head')[0];
+var q=n.createElement('script'); q.async=1;
+q.src='https://static.ezmob.com/intstl/intstl.js';
+s.appendChild(q);
+i.intstl('init', {
+ host: 'xml.ezmob.com',
+ feed: 619776,
+ auth : 'ezz9LU',
+ logo: 'https://adk.ezmob.com/images/icoLogo.png',
+ color1: '#3c8dbc', color2: '#307196',
+ textColor: 'white', background: '#f7f7f6',
+ engagementPeriod: 10,
+ interval: 11,
+defer: 10
+});
+i.intstl('show');
+})(window, document);
+</script>
+                                
 </body>
 
 </html>
