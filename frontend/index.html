@@ -9,11 +9,53 @@
   <link rel="preconnect" href="https://fonts.googleapis.com">
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
   <link href="https://fonts.googleapis.com/css2?family=Bilbo&family=Epilogue:wght@400;500;700&display=swap"
-    rel="stylesheet"></head>
+    rel="stylesheet">
+<style>
+ div.btn-group {
+  box-sizing: border-box;
+  width: 100%;
+  padding: 10px;
+  display: inline-flex;
+  flex-direction:column;
+  align-items:center;
+  gap:10px;
+  margin-bottom:20px;
+}
+
+a.button {
+  text-decoration: none;
+  font-weight: bold;
+  text-align: center;
+  color: #2196f3;
+  background-color: #fff;
+  padding: 10px;
+  border: 2px solid #2196f3;
+  -webkit-flex: 1;  /* Safari */
+  -moz-flex: 1; /* Mozilla */
+  -ms-flex: 1; /* IE */
+  -o-flex: 1; /* Opera */
+  flex: 1;
+  -webkit-transition: all .3s; /* Safari */
+  -moz-transition: all .3s; /* Mozilla */
+  -ms-transition: all .3s; /* IE */
+  -o-transition: all .3s; /* Opera */
+  transition: all .3s;
+}
+
+a.button:hover,
+a.button:focus,
+a.button:active {
+  background-color: #2196f3;
+  color: #fff;
+}
+</style>
+</head>
 
 <body>
-  <div id="root">
-  </div>
+<div class="btn-group">
+  <a href="#" class="button">It Chapter 1 (2017) 1080p with English subtitles.</a>
+  <a href="#" class="button">It Chapter 1 (2017) 720p with English subtitles.</a>
+</div>
   <script type="module" src="/src/main.jsx"></script>                                  
 </body>
 
